@@ -18,7 +18,7 @@ function validacionFecha(fecha) {
 }
 
 const promiseDate = new Promise((resolve, reject) => {
-  callbackDate('31/11/2025', function(date) {
+  callbackDate('31/01/2023', function(date) {
     if(validacionFecha(date)) {
       resolve(`Se registro correctamente la fecha: ${date}`)
     } else {
